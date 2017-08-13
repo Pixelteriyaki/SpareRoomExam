@@ -1,0 +1,64 @@
+
+#banner { 
+	display: block;
+    margin: auto;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+#navigation{
+	background-color: #1e4868;
+	padding:10px;
+}
+#subNavigation{
+	padding-top:20px;
+	padding-bottom:20px;
+	}		
+#subNavigation a{
+	color: #005480; 
+	text-decoration: none;
+	font: 16px/16px Arial;
+}	
+#eventTitle{
+	color: #003d5d; 
+	font-weight: bold;
+	font: 25px/25px Open Sans;
+}	
+
+#formTitle{
+	color: #003d5d; 
+	font-weight: bold;
+	font: 18px/18px Arial;
+}	
+#eventForm{
+	font: 15px/15px Arial;
+	color: #5e5e5e;
+	}
+.availabilityText{
+	color:#14c7f5; 
+	font-weight: bold;	
+}
+.eventFormInputTxt{
+	width:300px;
+}
+#idDisclaimer{
+	font: 15px/15px Arial;	
+}
+
+#emailDisclaimer{
+	font: 13px/13px Arial;	
+}
+
+#eventFormSubmitButton{
+	text-decoration: none;
+	border-radius: 10px;
+	color:#ffffff;
+	font: 30px/30px arial;
+	background: #ff9000;
+	border: none;
+}
+
+#navigation a{ 
+	color:#ffffff;
+	text-decoration: none;
+	font: 16px/16px arial;
+}

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html> 
+<head> 
+<meta charset="UTF-8">
+<title>SpareRoom-Web-Team-Technical-Task</title> 
+<link rel="stylesheet" type="text/css" href="./styles/examPage.css">
+</head> 
+
+
+<body> 
+
+		<div id="banner"> 
+			<img  src="./assets/logo.png" alt="SpareRoom webpage banner" />
+		</div> 
+		<nav id="navigation">
+			<a class="navLink" href="Home.html">Home</a> 
+			<a class="navLink" href="Events.html">Events</a> 		
+		</nav>
+		<nav id="subNavigation">
+			<a class="navLink" href="Events.html">Events</a>
+			<a class="navLink" href="Events.html">Events</a>
+			<a class="navLink" href="Events.html">Events</a>
+			<a class="navLink" href="Events.html">Events</a>
+		</nav> 
+
+		<p id="eventTitle"> SpeedRoomMating Brooklyn @ Matt Torrey's</p>
+		<img id="eventBanner" src="./assets/bar-photo.jpg" alt="Bar photo event image" />
+		<form id="eventForm"> 
+			<p id="formTitle"> Reserve Your place now </p>
+			<input id="radio1" class="eventFormRaidoBtn" type="radio"/><label for="radio1">I have a room </label><label class="availabilityText" for="radio1">&nbsp;&nbsp; Places Available </label><br>
+			<input id="radio2" class="eventFormRaidoBtn" type="radio"/><label for="radio2">I need a room </label><label class="availabilityText" for="radio2">&nbsp;&nbsp; Places Available </label><br>
+			Name
+			<input class="eventFormInputTxt" name="nameInput" type = "text" value="Please enter your name"/><br>
+			Email
+			<input class="eventFormInputTxt" name="emailInput" type = "text" value="Please enter your email address"/><br> 
+			<p id="emailDisclaimer"> We won't give your email  address to anyone else.<br> See our <a href="">Privacy Policy</a> for more details</p> 
+			<input id="eventFormSubmitButton" name="submitButton" type="submit" value="Book"/>
+			<p id="idDisclaimer">All out events are in licesned venues , so bring some ID<br>just in case you're lucky enough to be asked your age!</p>
+		</form>
+		<div id="displayEvent"> 
+			<p class="eventDetailHeader">What areas does this event cover? </p>
+			<p id="areaDetail"></p>
+			<p class="eventDetailHeader">Venue address </p>
+			<p id="addressDetail"> </p>		
+			<p class="eventDetailHeader">Venue directions </p>
+			<p id="directionDetail"> </p>		
+			<p class="eventDetailHeader">Nearest Subway </p>
+			<p id="subwayDetail"> </p>		
+			<p class="eventDetailHeader">Map</p>
+			<p id="mapDetail"> </p>		
+		</div>
+		<footer> </footer>
+<script src="./scripts/jquery-3.2.1.js"></script>
+<script src="./scripts/exam.js"></script>
+</body> 
+</html> 
