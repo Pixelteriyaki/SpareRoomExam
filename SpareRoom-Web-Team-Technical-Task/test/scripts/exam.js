@@ -1,5 +1,5 @@
 function FillEventDetails(){
-	$.getJSON("event.json", function(json) {
+	$.getJSON("https://github.com/Pixelteriyaki/SpareRoomExam/blob/master/SpareRoom-Web-Team-Technical-Task/test/scripts/event.json", function(json) {
 		console.log(json); // this will show the info it in firebug console
 	});
 	document.getElementById("areaDetail").innerHTML = "test";
